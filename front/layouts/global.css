@@ -1,0 +1,15 @@
+.v-application {
+    font-family: Monospace !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+}
+
+html {
+    font-family: Monospace !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+}
+
+.nuxt-progress {
+    visibility:hidden !important;
+}
