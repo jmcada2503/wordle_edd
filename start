@@ -1,0 +1,3 @@
+#!/bin/bash
+gnome-terminal -- bash -c "cd /home/jmcada/Documents/UNAL/6s/estructuras/proyectos/wordle/front; npm run dev; bash"
+gnome-terminal -- bash -c "cd /home/jmcada/Documents/UNAL/6s/estructuras/proyectos/wordle/back; source ./venv/bin/activate; python3 server.py; bash"

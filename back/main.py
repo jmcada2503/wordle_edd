@@ -4,8 +4,8 @@ import random
 class Game:
     level = 4
     dictionary = {}
-    winner_word = "hellow"
-    winner_set = set('h', 'e', 'l', 'o', 'w')
+    winner_word = ""
+    winner_set = set()
     posible_words = set()
     started = False
 
