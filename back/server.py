@@ -21,7 +21,11 @@ def setDifficulty():
 @cross_origin()
 def getDifficulty():
     global game
-    return {"difficulty": game.level}
+    if (not game.started):
+        game.started = True
+        return {"difficulty": game.level}
+    else:
+        return "", 500
 
 @app.route("/check_word", methods=["POST"])
 @cross_origin()

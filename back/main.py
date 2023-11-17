@@ -4,9 +4,10 @@ import random
 class Game:
     level = 4
     dictionary = {}
-    winner_word = ""
-    winner_set = set()
+    winner_word = "hellow"
+    winner_set = set('h', 'e', 'l', 'o', 'w')
     posible_words = set()
+    started = False
 
     def __init__(self, level):
         self.level = level
